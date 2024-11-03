@@ -1,0 +1,199 @@
+/* General Styles */ 
+body, h1, h2, p, h3 {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+}
+
+/* No need to modify h1, h2, h3, p styles */
+h1, h2, h3 {
+    color: #fff;
+}
+p {
+    color: #eee;
+}
+
+/* Header Styles */
+.header {
+    background-color: #ffb347;
+    padding: 60px 0;
+    text-align: center;
+    background-image: url('Home.png');
+    background-size: cover;
+}
+
+.header h1 {
+    font-size: 48px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.header p {
+    font-size: 24px;
+    color: #0f0202;
+}
+
+/* Categories Section */
+.categories {
+    padding: 60px 0;
+    background-color: #ffeb99;
+}
+
+.categories h2 {
+    text-align: center;
+    color: #d35400;
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+/* Use Bootstrap's grid for responsive layout */
+.category-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; /* Ensure grid wraps on smaller screens */
+    gap: 30px;
+}
+
+.category {
+    text-align: center;
+    width: 100%; /* Make categories take full width on small devices */
+}
+
+.category img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.category:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}
+
+.category h3 {
+    font-size: 24px;
+    color: #d35400;
+}
+
+/* Best Seller Section */
+.best-seller {
+    padding: 60px 0;
+    background-color: #fff;
+}
+
+.best-seller h2 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 30px;
+    color: #e74c3c;
+}
+
+.product-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; /* Allow grid to wrap */
+    gap: 30px;
+}
+
+.product {
+    text-align: center;
+    width: 100%; /* Make product take full width on small devices */
+}
+
+.product img {
+    width: 150px;
+    height: 150px;
+}
+
+.product h3 {
+    color: #e74c3c;
+    font-size: 24px;
+}
+
+.product p {
+    color: #333;
+    font-size: 20px;
+}
+
+/* Add to Cart Button */
+.add-to-cart-btn {
+    padding: 10px 20px;
+    background-color: white;
+    color: #e74c3c;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.add-to-cart-btn:hover {
+    background-color: #c0392b;
+}
+
+/* Product Table Section */
+.product-section {
+    margin: 50px 0;
+    padding: 40px;
+    background-color: #ffeb99;
+    border-radius: 15px;
+}
+
+.product-section h2 {
+    font-size: 30px;
+    color: #d35400;
+    margin-bottom: 30px;
+}
+
+.product-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+.product-table th, .product-table td {
+    padding: 15px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+.product-table th {
+    background-color: #f39c12;
+    color: white;
+}
+
+.product-table td {
+    background-color: #fff;
+    color: #333;
+}
+
+/* Add Product Button */
+.add-product {
+    background-color: #ffb347;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.add-product:hover {
+    background-color: #d35400;
+}
+
+/* Footer Styles */
+.footer {
+    background-color: #333;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.footer p {
+    color: black;
+}

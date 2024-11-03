@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --red: #ff0000;
+    --yellow: #fcc927;
+    --white: #ffffff;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: url('Home.png') no-repeat center center fixed;
+    background-size: cover;
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-container {
+    background: var(--white);
+    width: 100%;
+    max-width: 400px;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.form-container h1 {
+    font-size: 2rem;
+    color: var(--red);
+    margin-bottom: 1.5rem;
+}
+
+.form-container input {
+    width: 100%;
+    padding: 1rem;
+    margin: 0.5rem 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.form-container input[type="submit"] {
+    background-color: var(--red);
+    color: var(--yellow);
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: none;
+    padding: 1rem;
+    border-radius: 5px;
+    margin-top: 1rem;
+    transition: background-color 0.3s;
+}
+
+.form-container input[type="submit"]:hover {
+    background-color: black;
+}
+
+.form-container p {
+    margin-top: 1rem;
+}
+
+.form-container p a {
+    color: var(--red);
+    text-decoration: none;
+}
+
+.form-container p a:hover {
+    text-decoration: underline;
+}
