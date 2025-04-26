@@ -31,7 +31,7 @@ Clone or Download the Repository:
 
 bash
 Copy
-git clone https://github.com/yourusername/grocery-fast-food-store.git
+git clone https://github.com/NhlabathiThando/ePlusStore.git
 Set up the Database:
 
 Create a new database in MySQL named grocery_fast_food_db.
