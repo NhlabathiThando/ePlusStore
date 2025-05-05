@@ -43,7 +43,7 @@ Copy
 CREATE DATABASE grocery_fast_food_db;
 USE grocery_fast_food_db;
 SOURCE path/to/schema.sql;
-Configure Database Connection (config.php):
+Configure Database Connection (database.php):
 
 Open config.php and update the database connection settings with your database credentials.
 php
